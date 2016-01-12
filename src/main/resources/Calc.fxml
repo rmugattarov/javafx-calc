@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import java.net.URL?>
+<?import javafx.scene.control.Label?>
+<GridPane fx:controller="rmugattarov.CalcController" xmlns:fx="http://javafx.com/fxml" alignment="center" hgap="5" vgap="5">
+    <stylesheets>
+        <URL value="@styles.css"/>
+    </stylesheets>
+
+    <Label fx:id="display" text="0" GridPane.columnIndex="0" GridPane.rowIndex="0" GridPane.columnSpan="4" GridPane.halignment="RIGHT"/>
+
+    <Button text="CE" GridPane.columnIndex="0" GridPane.rowIndex="1" styleClass="squareButton"/>
+    <Button text="C" GridPane.columnIndex="1" GridPane.rowIndex="1" styleClass="squareButton"/>
+    <Button text="&#x232B;" GridPane.columnIndex="2" GridPane.rowIndex="1" styleClass="squareButton"/>
+    <Button text="&#x00F7;" GridPane.columnIndex="3" GridPane.rowIndex="1" styleClass="squareButton"/>
+
+    <Button text="7" GridPane.columnIndex="0" GridPane.rowIndex="2" styleClass="squareButton"/>
+    <Button text="8" GridPane.columnIndex="1" GridPane.rowIndex="2" styleClass="squareButton"/>
+    <Button text="9" GridPane.columnIndex="2" GridPane.rowIndex="2" styleClass="squareButton"/>
+    <Button text="&#x00D7;" GridPane.columnIndex="3" GridPane.rowIndex="2" styleClass="squareButton"/>
+
+    <Button text="4" GridPane.columnIndex="0" GridPane.rowIndex="3" styleClass="squareButton"/>
+    <Button text="5" GridPane.columnIndex="1" GridPane.rowIndex="3" styleClass="squareButton"/>
+    <Button text="6" GridPane.columnIndex="2" GridPane.rowIndex="3" styleClass="squareButton"/>
+    <Button text="&#x2212;" GridPane.columnIndex="3" GridPane.rowIndex="3" styleClass="squareButton"/>
+
+    <Button text="1" GridPane.columnIndex="0" GridPane.rowIndex="4" styleClass="squareButton"/>
+    <Button text="2" GridPane.columnIndex="1" GridPane.rowIndex="4" styleClass="squareButton"/>
+    <Button text="3" GridPane.columnIndex="2" GridPane.rowIndex="4" styleClass="squareButton"/>
+    <Button text="+" GridPane.columnIndex="3" GridPane.rowIndex="4" styleClass="squareButton"/>
+
+    <Button text="&#x00B1;" GridPane.columnIndex="0" GridPane.rowIndex="5" styleClass="squareButton"/>
+    <Button text="0" GridPane.columnIndex="1" GridPane.rowIndex="5" styleClass="squareButton"/>
+    <Button text="." GridPane.columnIndex="2" GridPane.rowIndex="5" styleClass="squareButton"/>
+    <Button text="=" GridPane.columnIndex="3" GridPane.rowIndex="5" styleClass="squareButton"/>
+</GridPane>

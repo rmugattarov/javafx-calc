@@ -1,0 +1,17 @@
+.button {
+    -fx-font-family: Tahoma;
+    -fx-font-size: 24;
+    -fx-border-width: 0;
+}
+
+.squareButton {
+    -fx-min-width: 60;
+    -fx-min-height: 60;
+}
+
+#display {
+    -fx-min-height: 100;
+    -fx-font-family: Tahoma;
+    -fx-font-size: 36;
+    -fx-font-weight: 600;
+}
